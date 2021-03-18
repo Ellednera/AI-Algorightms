@@ -8,4 +8,5 @@ __cons_stat.pl__ is the primitive way of doing it, while __cons_stat_timing.pl__
 
 ### Reference
 Youtube
+
 -[Constraint Satisfaction: introduction](https://www.youtube.com/watch?v=_e64FiDWvqs)
