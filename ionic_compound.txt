@@ -1,0 +1,32 @@
+Generating Ionic Compounds 
+
+(using CSP)
+
+1. Get all elements (separate as anions and cations)
+2. Include some compound anions and cations
+3. Get all their charges registered
+4. No suitable chemistry module available for this simple task
+[consider the charges too, simplify them if necessary :) ]
+
+Foward tracking
+1. Get current listing of cat- and anions (one from each group)
+2. Try combining them and check for existance (individually)
+3. Combine them + process for output 
+
+Backward tracking
+1. Cross all elements 
+(if not then use array+for loop, but this method will be very slow)
+2. Check for existance one by one (each cross product)
+3. If the compound exists, then process them for output
+
+Solution
+There are 2 different ways to solve these problems.
+1. Normal programming method, create everything then do checking
+2. Create+Checking in one go for each combination :| This might cause the code to be hard to understand
+3. Cross products will be generated using the Set::CrossProduct module
+
+Data
+1. Elements and their corresponding charges stored into a hash
+2. Existing elements stored into another hash (to ease the checking process, this saves time compared to using array)
+OR :)
+Use a hash table for the existing ionic compounds ie everything is in one hash table
